@@ -1,14 +1,14 @@
 $(document).ready( function() {
 
 $(".stroke").on("click",function(){
-$(".img1").attr("src", "stroke.gif");
+$(".img1").attr("src", "ka_Strokeangle.gif");
 $(".katext > h1").text("Stroke Angle");
 $(".katextp > p").text("02");
 $(".katext > p").text("The Stroke angle is 90 degrees to reflect the instrument that it was made it which was a flat edge ice cream stick");
 });
 
 $(".overhang").on("click",function(){
-$(".img1").attr("src", "circleoverhang.gif");
+$(".img1").attr("src", "ka_overhang.gif");
 $(".katext > h1").text("Overhang");
 $(".katextp > p").text("01");
 $(".katext > p").text("The overhang or overshoot is 15px for optical compensation. This makes the letter appear to be the same size as the remaining letters of the typeface");
@@ -17,7 +17,7 @@ $(".katext > p").text("The overhang or overshoot is 15px for optical compensatio
 });
 
 $(".terminal").on("click",function(){
-$(".img1").attr("src", "terminal.gif");
+$(".img1").attr("src", "Ka_terminal.gif");
 $(".katext > h1").text("Terminal");
 $(".katextp > p").text("03");
 $(".katext > p").text("The terminal swashes upwards. It cut at the tip instead of being perfectly rounded to appear optical pleasing at a distance");
